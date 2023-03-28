@@ -1,4 +1,21 @@
-﻿a
+﻿body {
+	color: #00008B;
+	background-color: #FFD700;
+}
+
+h1, h2 {
+	color: red;
+	text-transform: uppercase;
+}
+
+#f_vonal {
+	width: 800px;
+	height: 6px;
+	border: none;
+	background-color: green;
+}
+
+a
 {
 	color: red;
 }
@@ -63,6 +80,7 @@ p:first-letter
 
 li
 {
+	list-style-image: url("list.png");
 	padding: 3px;
 	margin: 3px;
 	font-style: italic;
